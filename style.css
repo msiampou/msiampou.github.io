@@ -1,0 +1,110 @@
+/* ---------Style for table------------- */
+body, td, th, tr, p, a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+}
+
+/* ---------Style for table------------- */
+table {
+    border: 0;
+    margin: auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* Inherit from table and set its width */
+#main-table {
+    width: 800px
+}
+
+/* Inherit from table and set its width */
+.sub-table {
+    width: 100%;
+}
+
+/* ---------Style for td-------------------- */
+
+/* td-with-padding */
+.td-with-padding {
+    padding: 20px;
+    width: 100%;
+}
+
+.td-no-padding {
+    padding-left: 20px;
+    width: 100%;
+}
+
+
+/* ---------Style for HOME button-------------------- */
+
+.home {
+    position: absolute;
+    left: 80%;
+}
+
+/* ---------Style for p-------------------- */
+.p-center {
+    text-align: center;
+}
+
+#email {
+    font-family: monospace;
+    font-size: 14px;
+    color: #c56900;
+}
+
+
+/* ---------Style for name-------------------- */
+name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 34px;
+}
+
+prj {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 26px;
+}
+
+/* ---------Style for span-------------------- */
+.emphasis {
+    color: #c56900;
+}
+
+.align-right {
+    float: right;
+    text-align: right;
+}
+/* ---------Style for a-------------------- */
+a {
+    color: #1772d0;
+    text-decoration: none;
+}
+a:focus,
+a:hover {
+    color: #f09228;
+    text-decoration: none;
+} 
+
+/* ---------Style for li-------------------- */
+.li-margin {
+    margin-bottom: 10px;
+}
+/* ---------Style for my image-------------------- */
+#Weiqi-image {
+    width: 200px;
+    border-radius: 125px;
+}
+
+/* ---------Style for project image-------------------- */
+#prj-image {
+    width: 840px;
+}
+
+/* ---------Style for heading-------------------- */
+heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+
