@@ -68,7 +68,7 @@ prj {
 
 /* ---------Style for span-------------------- */
 .emphasis {
-    color: #1dcee6;
+    color: #1987b3;
 }
 
 .align-right {
@@ -82,7 +82,7 @@ a {
 }
 a:focus,
 a:hover {
-    color: #1dcee6;
+    color: #1987b3;
     text-decoration: none;
 } 
 
