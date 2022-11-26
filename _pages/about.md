@@ -8,8 +8,8 @@ profile:
   image: prof_pic.jpg
   address: >
     Email address
-    <small>[surname]@usc.edu</small>
-    <div class="office">
+    <small>siampou@usc.edu</small>
+    <div class="office"><br>
       Office address
       <small>InfoLab, RTH 323</small><br>
       <small>3710 McClintock Ave</small><br>

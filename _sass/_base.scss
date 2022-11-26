@@ -69,10 +69,6 @@ blockquote {
     width: 100%;
   }
 
-  figure {
-    margin: 20px;
-  }
-
   .card-title {
     color: var(--global-text-color);
   }
@@ -192,7 +188,7 @@ blockquote {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 0.5rem;
+    font-size: 1.7rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -716,69 +712,3 @@ progress {
      display: block;
      height: inherit;
  }
-
- office {
-  padding-top: .5cm;
-}
-
-.profile {
-  .address {
-    .office {
-      p {
-        font-family: "Roboto",sans-serif;
-        font-weight: 300;
-      }
-    }
-  }
-}
-.footer-div {
-  text-align: center;
-}
-
-.thesis {
-  a {
-    text-decoration: none;
-
-    &:hover {
-      .card-title {
-        color: var(--global-theme-color);
-      }
-    }
-  }
-
-  h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-  }
-}
-
-.teaching {
-  a {
-    text-decoration: none;
-
-    &:hover {
-      .card-title {
-        color: var(--global-theme-color);
-      }
-    }
-  }
-
-  h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-  }
-}
-
-.desc {
-  span {
-    display: block;
-  }
-}
