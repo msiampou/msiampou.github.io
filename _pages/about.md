@@ -12,14 +12,14 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    📮 Email address
-    <p>[surname]@usc.edu</p>
+    <p>Email address<\p>
+    <small>[surname]@usc.edu</small>
     <div class="office">
-      🏢 Office address
-      <p>InfoLab, RTH 323</p>
-      <a href="https://g.page/diunito?share">
-      <p>3710 McClintock Ave</p>
-      <p>Los Angeles, CA 90089</p>
+      <p>Office address<\p>
+      <small>InfoLab, RTH 323</small>
+      <a href="https://infolab.usc.edu/">
+      <small>3710 McClintock Ave</small>
+      <small>Los Angeles, CA 90089</small>
       </a>
     </div>
 
