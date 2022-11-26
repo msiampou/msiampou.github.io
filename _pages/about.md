@@ -3,21 +3,21 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <span><b>PhD Student</b></span><br>
+  <span><b>PhD Student</b></span>
   <a href='https://www.usc.edu/'>University of Southern California</a>, 
   <a href='https://www.cs.usc.edu/'>Department of Computer Science</a>
 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   address: >
     📮 Email address
-    <p>siampou@usc.edu</p>
+    <p>[surname]@usc.edu</p>
     <div class="office">
       🏢 Office address
       <p>InfoLab, RTH 323</p>
-      <a href="https://infolab.usc.edu">
+      <a href="https://g.page/diunito?share">
       <p>3710 McClintock Ave</p>
       <p>Los Angeles, CA 90089</p>
       </a>
@@ -25,7 +25,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 Hi! My name is Maria. :wave:
