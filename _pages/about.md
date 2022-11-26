@@ -2,28 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: >
-  <span><b>PhD Student</b></span><br>
-  <a href='https://www.usc.edu/'>University of Southern California</a>, 
-  <a href='https://www.cs.usc.edu/'>Department of Computer Science</a>
-
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <center>
-    <p>Email address</p>
+    Email address
     <small>[surname]@usc.edu</small>
     <div class="office">
-      <p>Office address</p>
+      Office address
       <small>InfoLab, RTH 323</small><br>
-      <a href="https://infolab.usc.edu/">
       <small>3710 McClintock Ave</small><br>
       <small>Los Angeles, CA 90089</small>
       </a>
     </div>
-    </center>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
