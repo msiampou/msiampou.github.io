@@ -12,20 +12,22 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Email address<\p>
+    <center>
+    <p>Email address</p>
     <small>[surname]@usc.edu</small>
     <div class="office">
-      <p>Office address<\p>
-      <small>InfoLab, RTH 323</small>
+      <p>Office address</p>
+      <small>InfoLab, RTH 323</small><br>
       <a href="https://infolab.usc.edu/">
-      <small>3710 McClintock Ave</small>
+      <small>3710 McClintock Ave</small><br>
       <small>Los Angeles, CA 90089</small>
       </a>
     </div>
+    </center>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
 Hi! My name is Maria. :wave:
