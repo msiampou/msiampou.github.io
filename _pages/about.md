@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Maria :wave:
+Hi! My name is Maria. :wave:
 
 I am a PhD student in the Computer Science Department at University of Southern California advised by Prof. [Cyrus Shahabi](https://infolab.usc.edu/Shahabi/index.html). My research interests include the management and analysis of spatial and temporal data types.
 
