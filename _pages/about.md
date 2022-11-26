@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  <span><b>PhD Student</b></span>
+  <span><b>PhD Student</b></span><br>
   <a href='https://www.usc.edu/'>University of Southern California</a>, 
   <a href='https://www.cs.usc.edu/'>Department of Computer Science</a>
 
