@@ -1,22 +1,31 @@
 ---
 layout: about
 title: about
-index: 1
 permalink: /
-subtitle:
+subtitle: >
+  <span><b>PhD Student</b></span>
+  <a href='https://www.usc.edu/'>University of Southern California</a>, 
+  <a href='https://www.cs.usc.edu/'>Department of Computer Science</a>
+
 
 profile:
-  align: left
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  align: right
+  image: prof_pic.jpeg
   address: >
-    <p>RTH 323</p>
-    <p>3710 McClintock Ave</p>
-    <p>Los Angeles, CA 90089</p>
+    📮 Email address
+    <p>siampou@usc.edu</p>
+    <div class="office">
+      🏢 Office address
+      <p>InfoLab, RTH 323</p>
+      <a href="https://g.page/diunito?share">
+      <p>3710 McClintock Ave</p>
+      <p>Los Angeles, CA 90089</p>
+      </a>
+    </div>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
 Hi! My name is Maria. :wave:
