@@ -10,7 +10,7 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.jpg
   address: >
     📮 Email address
     <p>[surname]@usc.edu</p>
