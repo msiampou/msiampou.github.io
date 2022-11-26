@@ -10,14 +10,14 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.jpg
   address: >
     📮 Email address
     <p>siampou@usc.edu</p>
     <div class="office">
       🏢 Office address
       <p>InfoLab, RTH 323</p>
-      <a href="https://g.page/diunito?share">
+      <a href="https://infolab.usc.edu">
       <p>3710 McClintock Ave</p>
       <p>Los Angeles, CA 90089</p>
       </a>
