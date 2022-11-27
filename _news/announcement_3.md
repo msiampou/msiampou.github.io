@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2022-08-28 07:59:00-0400
-inline: true
+inline: false
 ---
 
 I'm starting my PhD at University of Southern California!
