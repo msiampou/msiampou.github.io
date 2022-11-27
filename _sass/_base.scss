@@ -24,7 +24,7 @@ table {
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-text-color-light);
     text-decoration: underline;
   }
   &:hover:after :not(.nav-item.dropdown) {
