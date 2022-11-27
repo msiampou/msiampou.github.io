@@ -100,20 +100,16 @@ blockquote {
     margin-top: 5px;
     font-family: monospace;
     p {
+      display: inline-block;
       margin: 0;
     }
   }
 }
 .profile.float-right{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  margin-left: 2rem;
 }
-
 .profile.float-left{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
+  margin-right: 2rem;
 }
 
 @media (min-width: 576px) {
