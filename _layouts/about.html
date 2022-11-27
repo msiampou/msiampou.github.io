@@ -6,7 +6,7 @@ layout: default
       <div class="post">
         <article>
           {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}top{%- endif -%}">
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}center{%- endif -%}">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 

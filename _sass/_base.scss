@@ -99,6 +99,7 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    text-align: center;
     p {
       display: inline-block;
       margin: 0;
@@ -110,10 +111,6 @@ blockquote {
 }
 .profile.float-left{
   margin-right: 1rem;
-}
-
-.profile.float-top{
-  margin-top: 1rem;
 }
 
 @media (min-width: 576px) {
