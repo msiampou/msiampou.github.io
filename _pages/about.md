@@ -4,7 +4,7 @@ title: about
 permalink: /
 
 profile:
-  align: right
+  align: top
   image: prof_pic.jpg
   address: >
     <p>RTH 323</p>

@@ -34,7 +34,6 @@ a, table.table a {
 
 figure, img {
   max-width: 90vw;
-  vertical-align: top;
 }
 
 blockquote {
@@ -111,6 +110,11 @@ blockquote {
 }
 .profile.float-left{
   margin-right: 1rem;
+}
+
+.profile.float-top{
+  display: inline-block;
+  vertical-align: top;
 }
 
 @media (min-width: 576px) {
