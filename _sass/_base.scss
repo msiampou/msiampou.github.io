@@ -100,19 +100,22 @@ blockquote {
     margin-top: 5px;
     font-family: monospace;
     p {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0;
+      position: relative;
     }
   }
 }
 .profile.float-right{
-  margin-left: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .profile.float-left{
-  margin-right: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (min-width: 576px) {
