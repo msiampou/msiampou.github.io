@@ -507,7 +507,7 @@ footer.sticky-bottom {
           padding-left: 1rem;
           padding-right: 1rem;
           a {
-            color: white;
+            color: rgb(122, 121, 121);
             &:hover {
               text-decoration: none;
             }
@@ -526,7 +526,7 @@ footer.sticky-bottom {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
               border-bottom-style: solid;
-              text-decoration: none;
+              text-decoration: underline;
           }
         }
         > em {
