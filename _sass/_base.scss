@@ -114,7 +114,8 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 40%;
+    width: 30%;
+    display: flex;
     .address {
       p { display: block; }
     }
