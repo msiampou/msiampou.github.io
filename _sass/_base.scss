@@ -94,7 +94,7 @@ blockquote {
 
 .profile {
   width: 100%;
-
+  align-self: center;
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -102,7 +102,6 @@ blockquote {
     p {
       display: inline-block;
       margin: 0;
-      text-align: center;
     }
   }
 }
