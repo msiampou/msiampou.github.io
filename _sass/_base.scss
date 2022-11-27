@@ -100,16 +100,17 @@ blockquote {
     margin-top: 5px;
     font-family: monospace;
     p {
-      display: inline-block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin: 0;
     }
   }
 }
 .profile.float-right{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 1rem;
 }
+
 .profile.float-left{
   margin-right: 1rem;
 }
