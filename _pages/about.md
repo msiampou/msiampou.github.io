@@ -7,7 +7,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>InfoLab, RTH 323</p>
+    <p>RTH 323</p>
     <p>3710 McClintock Ave</p>
     <p>Los Angeles, CA 90089</p>
 
