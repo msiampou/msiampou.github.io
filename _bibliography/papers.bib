@@ -1,14 +1,17 @@
 ---
 ---
-@inproceedings{eswcSiampouKK22,
-    abbr = {ESWC},
-    title = "Extending YAGO4 Knowledge Graph with Geospatial Knowledge",
-    author = "Siampou, Maria Despoina and Karalis, Nikolaos and Koubarakis, Manolis}",
-    booktitle = "Proceedings of the 5th International Workshop on Geospatial Linked
-               Data, GeoLD 2022, co-located with 19th Extended Semantic Web Conference
-               (ESWC} 2022), Hersonissos, Greece, May 30th, 2022",
-    publisher = "CEUR-WS.org",
+@inproceedings{baziotis-2022-hyper-adapters,
+    abbr = {EMNLP},
+    title = "Multilingual Machine Translation with Hyper-Adapters",
+    author = "Baziotis, Christos and Artetxe, Mikel and Cross, James and Bhosale, Shruti",
+    booktitle = "Proceedings of the Conference on Empirical Methods in Natural Language Processing",
+    month = Dec,
     year = "2022",
-    pdf = "http://ceur-ws.org/Vol-3157/paper5.pdf",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    pdf = "https://arxiv.org/abs/2205.10835",
+    image = "",
+    abstract = "Multilingual machine translation suffers from negative interference across languages. A common solution is to relax parameter sharing with language-specific modules like adapters. However, adapters of related languages are unable to transfer information, and their total number of parameters becomes prohibitively expensive as the number of languages grows. In this work, we overcome these drawbacks using hyper-adapters -- hyper-networks that generate adapters from language and layer embeddings. While past work had poor results when scaling hyper-networks, we propose a rescaling fix that significantly improves convergence and enables training larger hyper-networks. We find that hyper-adapters are more parameter efficient than regular adapters, reaching the same performance with up to 12 times less parameters. When using the same number of parameters and FLOPS, our approach consistently outperforms regular adapters. Also, hyper-adapters converge faster than alternative approaches and scale better than regular dense networks. Our analysis shows that hyper-adapters learn to encode language relatedness, enabling positive transfer across languages.",
+    blog ="https://twitter.com/cbaziotis/status/1529047913833254912",
     selected ={true},
 }
