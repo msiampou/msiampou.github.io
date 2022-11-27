@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! My name is Maria. :wave:
 
-I am a PhD student in Computer Science at University of Southern California advised by Prof. [Cyrus Shahabi](https://infolab.usc.edu/Shahabi/index.html). My research interests include the management and analysis of spatial and temporal data types.
+I am a first-year PhD student in Computer Science at University of Southern California advised by Prof. [Cyrus Shahabi](https://infolab.usc.edu/Shahabi/index.html). My research interests include the management and analysis of spatial and temporal data types.
 
 Prior to USC, I received my Bachelor's and Master's degree in Computer Science at National and Kapodistrian University of Athens, Greece. During that time, I used to work on interlinking pipelines of geospatial data on the Semantic Web. My advisor was Prof. [Manolis Koubarakis](https://cgi.di.uoa.gr/~koubarak/).
 
