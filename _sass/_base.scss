@@ -24,7 +24,7 @@ table {
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
-    color: var(--global-text-color-light);
+    color: var(--global-theme-color);
     text-decoration: underline;
   }
   &:hover:after :not(.nav-item.dropdown) {
@@ -524,7 +524,7 @@ footer.sticky-bottom {
       }
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 1px dashed var(--global-text-color);
           &:hover {
               border-bottom-style: solid;
               text-decoration: none;
@@ -535,8 +535,8 @@ footer.sticky-bottom {
           font-style: normal;
         }
         > span.more-authors {
-          color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
+          color: var(--global-text-color);
+          border-bottom: 1px dashed var(--global-text-color);
           cursor: pointer;
           &:hover {
               color: var(--global-text-color);
