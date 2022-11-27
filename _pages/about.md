@@ -7,15 +7,9 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    Email address
-    <small>siampou@usc.edu</small>
-    <div class="office">
-      Office address<br>
-      <small>InfoLab, RTH 323</small><br>
-      <small>3710 McClintock Ave</small><br>
-      <small>Los Angeles, CA 90089</small>
-      </a>
-    </div>
+    <p>InfoLab, RTH 323</p>
+    <p>3710 McClintock Ave</p>
+    <p>Los Angeles, CA 90089</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
