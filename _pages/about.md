@@ -9,8 +9,8 @@ profile:
   address: >
     Email address
     <small>siampou@usc.edu</small>
-    <div class="office"><br>
-      Office address
+    <div class="office">
+      Office address<br>
       <small>InfoLab, RTH 323</small><br>
       <small>3710 McClintock Ave</small><br>
       <small>Los Angeles, CA 90089</small>
