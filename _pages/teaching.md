@@ -21,6 +21,7 @@ nav_order: 5
       </div>
     </div>
     <h6 class="mt-2 mt-sm-0" style="color:dimgray">Spring 2021 & Spring 2022 : <i>Teaching Assistant, Guest Lecturer</i></h6>
+    <h6 class="mt-2 mt-sm-0" style="color:dimgray">Spring 2020 : <i> Undergraduate Teaching Assistant </i></h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">Undegraduate-level course taught by Prof. <a href="https://cgi.di.uoa.gr/~koubarak/">Manolis Koubarakis</a>.</li>
     </ul>

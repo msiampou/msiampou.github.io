@@ -95,23 +95,23 @@ blockquote {
 // Profile
 
 .profile {
+  margin-left: 1rem;
   width: 100%;
+
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-weight: 300;
     p {
       display: inline-block;
       margin: 0;
+      font-size: .85rem;
+      font-family: monospace;
+      text-align: right;
     }
   }
 }
-.profile.float-right{
-  margin-left: 2.5rem;
-}
-.profile.float-left{
-  margin-right: 2.5rem;
-}
+
 
 @media (min-width: 576px) {
   .profile {

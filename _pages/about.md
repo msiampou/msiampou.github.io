@@ -1,19 +1,25 @@
 ---
 layout: about
-title: about
+title: 
 permalink: /
+subtitle: > 
+  <span><b>PhD Student</b></span> in Computer Science at
+  <a href='https://www.usc.edu'>University of Southern California</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+  address: > 
+          <p> InfoLab, RTH 323 </p>
+          <p>3710 McClintock Ave</p> 
+          <p>Las Angeles, CA, 90089</p> 
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-
-Hi! My name is Maria. :wave:
+<br>
+Hi! :wave: My name is Maria.
 
 I am a first-year PhD student in Computer Science at University of Southern California advised by Prof. [Cyrus Shahabi](https://infolab.usc.edu/Shahabi/index.html). My research interests include the management and analysis of spatial and temporal data types.
 
