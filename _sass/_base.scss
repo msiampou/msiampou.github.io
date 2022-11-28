@@ -13,10 +13,12 @@ hr {
 }
 
 table {
-  td, th {
+  th {
     color: var(--global-text-color);
+    text-align: left;
   }
   td {
+    color: var(--global-text-color);
     font-size: 1rem;
   }
 }
@@ -94,7 +96,6 @@ blockquote {
 
 .profile {
   width: 100%;
-
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -106,10 +107,10 @@ blockquote {
   }
 }
 .profile.float-right{
-  margin-left: 1rem;
+  margin-left: 2.5rem;
 }
 .profile.float-left{
-  margin-right: 1rem;
+  margin-right: 2.5rem;
 }
 
 @media (min-width: 576px) {

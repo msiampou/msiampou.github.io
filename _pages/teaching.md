@@ -2,50 +2,63 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: .
+description: Classes and Research Mentorship
 nav: true
 nav_order: 5
 ---
 
-<div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
+<h3 class="mt-4" style="color:gray">National and Kapodistrian University of Athens</h3>
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="font-weight-bold" style="color:darkslategrey">Data Structures & Algorithms</h5>
+      </div>
+      <div class="col-sm-2 text-left text-sm-right">
+        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
+            K08
+        </span>
+      </div>
     </div>
+    <h6 class="mt-2 mt-sm-0" style="color:dimgray">Spring 2021 & Spring 2022 : <i>Teaching Assistant, Guest Lecturer</i></h6>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">Undegraduate-level course taught by Prof. <a href="https://cgi.di.uoa.gr/~koubarak/">Manolis Koubarakis</a>.</li>
+    </ul>
   </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
-
-{%- else -%}
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
+</div>
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="font-weight-bold" style="color:darkslategrey">Artificial Intelligence</h5>
+      </div>
+      <div class="col-sm-2 text-left text-sm-right">
+        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
+            YS02
+        </span>
+      </div>
     </div>
+    <h6 class="mt-2 mt-sm-0" style="color:dimgray">Fall 2020 & Fall 2021 : <i>Teaching Assistant</i></h6>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">Undegraduate-level course taught by Prof. <a href="https://cgi.di.uoa.gr/~koubarak/">Manolis Koubarakis</a>.</li>
+    </ul>
   </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
+</div>
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="font-weight-bold" style="color:darkslategrey">Systems Programming</h5>
+      </div>
+      <div class="col-sm-2 text-left text-sm-right">
+        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
+            K24
+        </span>
+      </div>
+    </div>
+    <h6 class="mt-2 mt-sm-0" style="color:dimgray">Spring 2021 : <i>Teaching Assistant</i></h6>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">Undegraduate-level course taught by Prof. <a href="https://cgi.di.uoa.gr/~mema/">Mema Roussopoulos</a> and Prof. <a href="https://cgi.di.uoa.gr/~antoulas/">Alexandros Ntoulas</a>.</li>
+    </ul>
   </div>
-  {%- endif -%}
-{%- endif -%}
 </div>
