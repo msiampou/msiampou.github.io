@@ -12,7 +12,7 @@ profile:
   address: > 
           <p> InfoLab, RTH 323 </p>
           <p>3710 McClintock Ave</p> 
-          <p>Las Angeles, CA, 90089</p> 
+          <p>Los Angeles, CA, 90089</p> 
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
