@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: Classes and Research Mentorship
-nav: true
+nav: false
 nav_order: 5
 ---
 
