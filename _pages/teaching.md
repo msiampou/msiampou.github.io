@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /teaching/
 title: Teaching
@@ -62,4 +62,4 @@ nav_order: 5
       <li class="list-group-item">Undegraduate-level course taught by Prof. <a href="https://cgi.di.uoa.gr/~mema/">Mema Roussopoulos</a> and Prof. <a href="https://cgi.di.uoa.gr/~antoulas/">Alexandros Ntoulas</a>.</li>
     </ul>
   </div>
-</div>
+</div> -->
