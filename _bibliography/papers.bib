@@ -15,42 +15,129 @@
 @inproceedings{hajisafi2024icde,
   title={{W}earables for Health (W4H) Toolkit for Acquisition,
 Storage, Analysis and Visualization of Data from Various Wearable Devices},
-  author={Hajisafi, A. and {M.D. Siampou} and Bi,J. and Nocera, L. and Shahabi, C.},
-  booktitle={IEEE ICDE -- Demo Track},
-  year={2024}
+  author={Hajisafi, Arash and Siampou, Maria Despoina and Bi, Jize. and Nocera, Luciano. and Shahabi, Cyrus},
+  booktitle={IEEE International Conference on Data Engineering (ICDE), Demonstrations Track},
+  year={2024},
+  pdf={papers/icde_demo_2024.pdf},
+  abbr={ICDE},
+  abstract={The Wearables for Health Toolkit (W4H Toolkit)
+    is an open-source platform that provides a robust, end-to-end
+    solution for the centralized management and analysis of wearable
+    data. With integrated tools and frameworks, the toolkit facilitates
+    seamless data acquisition, integration, storage, analysis, and
+    visualization of both stored and streaming data from various
+    wearable devices. The W4H Toolkit is designed to provide
+    medical researchers and health practitioners with a unified
+    framework that enables the analysis of health-related data for
+    various clinical applications. We provide an overview of the
+    system and demonstrate how it can be used by health researchers
+    to import and analyze a wide range of wearable data and perform
+    data analysis, highlighting the versatility and functionality of the
+    system across diverse healthcare domains and applications.}
 }
 
 @inproceedings{siampou2024embc,
   title={{A}n Algorithmic Approach for Detecting Neuromotor Developmental Disabilities in Infants from Wearable Sensor Data},
-  author={{M.D. Siampou} and Nocera, L. and Oh, J. and Smith, B. and Shahabi, C.},
+  author={Siampou, Maria Despoina and Nocera, L. and Oh, J. and Smith, B. and Shahabi, C.},
   booktitle={IEEE EMBC},
-  year={2024}
+  year={2024},
+  abbr={EMBC},
+  abstract={The inherent challenges in recruiting human subjects, particularly infants, often hinder the acquisition of sufficiently large datasets for health research, thereby limiting the
+    applicability of conventional machine-learning (ML) approaches.
+    In this study, we analyze full-day motion recordings from two
+    groups: typically developing infants (N = 12) and infants at
+    risk for developmental disabilities (N = 24), further divided
+    into those with good (N = 10) and poor (N = 9) developmental
+    outcomes at 24 months. The goal is to differentiate at-risk (AR)
+    infants from those with typical development (TD) and predict
+    outcomes for the at-risk category using wearable data. Due to its
+    limited size, previous studies on this dataset, employing statistical
+    and machine learning methods, raise reliability concerns. To
+    address this, we introduce a novel algorithmic approach to extract
+    meaningful patterns, referred to as Motifs, from the raw signals.
+    The abundance of Motifs serves as highly informative indicators,
+    enabling effective differentiation between the groups. Evaluation
+    on this limited-size dataset demonstrates the effectiveness of
+    Motifs in distinguishing AR from TD infants and predicting
+    future outcomes for the at-risk category.},
+  pdf={papers/siampou_embc_2024.pdf}
 }
 
 @inproceedings{hajisafi2023learning,
   title={Learning Dynamic Graphs from All Contextual Information for Accurate Point-of-Interest Visit Forecasting},
-  author={Hajisafi, A. and Lin, H. and Shaham, S. and Hu, H. and {M.D. Siampou} and Chiang, Y.-Y. and Shahabi, C.},
-  booktitle={ACM SIGSPATIAL},
-  year={2023}
+  author={Hajisafi, Arash and Lin, Haowen and Shaham, Sina and Hu, Haoji and Siampou, Maria Despoina and Chiang, Yao-Yi and Shahabi, Cyrus},
+  booktitle={Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL)},
+  year={2023},
+  abbr={SIGSPATIAL},
+  html={https://dl.acm.org/doi/pdf/10.1145/3589132.3625567},
+  abstract={Forecasting the number of visits to Points-of-Interest (POI) in an
+    urban area is critical for planning and decision making in various application domains, from urban planning and transportation
+    management to public health and social studies. Although this forecasting problem can be formulated as a multivariate time-series
+    forecasting task, current approaches cannot fully exploit the everchanging multi-context correlations among POIs. Therefore, we
+    propose Busyness Graph Neural Network (BysGNN), a temporal
+    graph neural network designed to learn and uncover the underlying
+    multi-context correlations between POIs for accurate visit forecasting. Unlike other approaches where only time-series data is used to
+    learn a dynamic graph, BysGNN utilizes all contextual information
+    and time-series data to learn an accurate dynamic graph representation. By incorporating all contextual, temporal, and spatial signals,
+    we observe a significant improvement in our forecasting accuracy
+    over state-of-the-art forecasting models in our experiments with
+    real-world datasets across the United States.}
 }
 
 @inproceedings{siampou2023supervised,
   title={Supervised Scheduling for Geospatial Interlinking},
-  author={{M.D. Siampou} and Papadakis, G. and Mamoulis, N. and Koubarakis, M.},
-  booktitle={ACM SIGSPATIAL},
-  year={2023}
+  author={Siampou, Maria Despoina and Papadakis, George and Mamoulis, Nikos and Koubarakis, Manolis},
+  booktitle={Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL)},
+  pages={1--12},
+  year={2023},
+  abbr={SIGSPATIAL},
+  html={https://dl.acm.org/doi/pdf/10.1145/3589132.3625585},
+  abstract={Geospatial Interlinking constitutes a crucial data integration task
+    that associates pairs of geometries with topological relations. Its
+    high computational cost, though, scales poorly to voluminous datasets.
+    Progressive methods were recently proposed to reduce this cost by
+    sacrificing recall to an affordable extent. They operate in a learningfree manner that relies on mere heuristics, which can be conservative (i.e., retaining too many unrelated pairs) or aggressive (i.e.,
+    discarding too many related pairs). In this work, we extend them
+    with Supervised Scheduling, a quick and principled way of defining
+    the processing order of the candidate geometry pairs that are likely
+    to be topologically related, based on their classification probability.
+    Our approach leverages generic features with low extraction cost
+    but high discriminatory power. We integrate Supervised Scheduling into a progressive end-to-end algorithm that automatically
+    labels the required training instances at a low computational cost.
+    Thorough experiments verify the high performance and robustness
+    of our features as well as the limited size of the training set that suffices for learning an accurate classification model. Our experiments
+    also verify the superior performance of our approach in comparison
+    to existing learning-free ones over five real, large datasets.}
 }
 
 @inproceedings{siampou2022extending,
-  title={Extending {YAGO4} Knowledge Graph with Geospatial Knowledge.},
-  author={{M.D. Siampou} and Karalis, N. and Koubarakis, M.},
+  title={Extending YAGO4 Knowledge Graph with Geospatial Knowledge.},
+  author={Siampou, Maria Despoina and Karalis, Nikolaos and Koubarakis, Manolis},
   booktitle={GeoLD@ ESWC},
-  year={2022}
+  pages={37--50},
+  year={2022},
+  abbr={GeoLD},
+  html={https://ceur-ws.org/Vol-3157/paper5.pdf},
+  abstract={We present an extension of YAGO4, the latest version of the YAGO knowledge graph, with qualitative
+    geospatial information representing the administrative organization of Greece. To achieve this, we
+    derive new geospatial information from the Greek Administrative Geography (GAG) dataset, an official
+    source of the administrative divisions of Greece. Our goal has been to extend entities already existing in
+    YAGO4 with geospatial information and add missing entities without introducing duplicate knowledge.
+    Our study should be viewed as a demonstration of how YAGO4 can be extended with administrative
+    geospatial information for the whole world. In addition, it has allowed us to uncover certain issues that
+    exist with the representation and querying of geospatial information in schema.org and YAGO4 which
+    we discuss in detail.}
 }
 
 @article{papamichalopoulos2024three,
   title={Three-dimensional geospatial interlinking with jedai-spatial},
-  author={Papamichalopoulos, M. and Papadakis, G. and Mandilaras, G. and {M.D. Siampou} and Mamoulis, N. and Koubarakis, M.},
+  author={Papamichalopoulos, Marios and Papadakis, George and Mandilaras, George and Siampou, Maria and Mamoulis, Nikos and Koubarakis, Manolis},
   journal={Journal of Web Semantics},
+  volume={81},
+  pages={100817},
   year={2024},
+  publisher={Elsevier},
+  abstract={Geospatial data constitutes a considerable part of Semantic Web data, but so far, its sources are inadequately interlinked in the Linked Open Data cloud. Geospatial Interlinking aims to cover this gap by associating geometries with topological relations like those of the Dimensionally Extended 9-Intersection Model. Due to its quadratic time complexity, various algorithms aim to carry out Geospatial Interlinking efficiently. We present JedAI-spatial, a novel, open-source system that organizes these algorithms according to three dimensions: (i) Space Tiling, which determines the approach that reduces the search space, (ii) Budget-awareness, which distinguishes interlinking algorithms into batch and progressive ones, and (iii) Execution mode, which discerns between serial algorithms, running on a single CPU-core, and parallel ones, running on top of Apache Spark. We analytically describe JedAI-spatial’s architecture and capabilities and perform thorough experiments to provide interesting insights about the relative performance of its algorithms.},
+  html={https://www.sciencedirect.com/science/article/pii/S1570826824000039},
+  abbr={JWS}
 }
