@@ -8,23 +8,25 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof.jpeg
   address: > 
           <p> InfoLab, RTH 323 </p>
           <p>3710 McClintock Ave</p> 
           <p>Los Angeles, CA, 90089</p> 
 
-news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 <br>
-I am a 2nd-year PhD student in Computer Science at University of Southern California, advised by Prof. [Cyrus Shahabi](https://infolab.usc.edu/Shahabi/index.html). 
+I am a 3rd-year PhD student in Computer Science at University of Southern California, advised by Prof. [Cyrus Shahabi](https://infolab.usc.edu/Shahabi/index.html). 
 
 Broadly speaking, my research interests include the management and analysis of spatial and spatio-temporal data types. Lately, my work focuses on the encoding techniques of geospatial objects in order to enable spatial reasoning tasks.
 
 I received my Bachelor's and Master's degree in Computer Science at National and Kapodistrian University of Athens, Greece. During that time, I used to work on interlinking pipelines of geospatial data on the Semantic Web, advised by Prof. [Manolis Koubarakis](https://cgi.di.uoa.gr/~koubarak/). During my Master's I've also interned as a Software Developement Engineer at [Amazon Redshift Database (Spatial Team)](https://aws.amazon.com/pm/redshift/?trk=8e5f044b-6475-484a-b7eb-8923cfdd5362&sc_channel=ps&s_kwcid=AL!4422!3!524552148442!e!!g!!amazon%20redshift&ef_id=Cj0KCQiAj4ecBhD3ARIsAM4Q_jHF2BEjT19GlAV0qHyEfaO9fSRL-67lPWf8ngdCdX3wX4w5tMqx3DgaApWLEALw_wcB:G:s&s_kwcid=AL!4422!3!524552148442!e!!g!!amazon%20redshift) in Berlin, Germany. 
 
-I am originally from [Anafi](https://en.wikipedia.org/wiki/Anafi), a small island in Cyclades, Greece.
+<!-- I am originally from [Anafi](https://en.wikipedia.org/wiki/Anafi), a small island in Cyclades, Greece. -->
+
+You can find my CV here: [**[CV](/assets/pdf/siampou_cv.pdf)**]
 
 <br>

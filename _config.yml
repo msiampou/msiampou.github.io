@@ -227,7 +227,7 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 scholar:
 
   last_name: [Siampou]
-  first_name: [Maria Despoina]
+  first_name: [M.D.]
 
   style: apa
   locale: en
