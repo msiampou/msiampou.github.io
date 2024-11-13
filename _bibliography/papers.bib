@@ -1,20 +1,74 @@
+---
+---
+
+@article{siampou2024trajroute,
+  title={TrajRoute: Rethinking Routing with a Simple Trajectory-Based Approach--Forget the Maps and Traffic!},
+  author={Siampou, M.D. and Anastasiou, C. and Krumm, J. and Shahabi, C.},
+  journal={arXiv preprint arXiv:2411.01325},
+  year={2024},
+  abbr={Preprint},
+  html={https://www.arxiv.org/pdf/2411.01325},
+  selected={true},
+  abstract = {The abundance of vehicle trajectory data offers a new opportunity to 
+              compute driving routes between origins and destinations. Current graph-based routing pipelines, 
+              while effective, involve substantial costs in constructing, maintaining, and updating road network 
+              graphs to reflect real-time conditions. In this study, we propose a new trajectory-based routing 
+              paradigm that bypasses current workflows by directly utilizing raw trajectory data to compute 
+              efficient routes. Our method, named TrajRoute, uniquely "follows" historical trajectories from 
+              a source to a destination, constructing paths that reflect actual driver behavior and implicit 
+              preferences. To supplement areas with sparse trajectory data, the road network is also incorporated 
+              into TrajRoute's index, and tunable parameters are introduced to control the balance between road 
+              segments and trajectories, ensuring a unified and adaptable routing approach. We experimentally verify 
+              our approach by comparing it to an existing online routing service. Our results demonstrate that as the 
+              number of trajectories covering the road network increases, TrajRoute produces increasingly accurate 
+              travel time and route length estimates while gradually eliminating the need to downgrade to the road 
+              network. This highlights the potential of simpler, data-driven pipelines for routing, offering 
+              lower-maintenance alternatives to conventional systems.},
+}
+
 @article{siampou2024poly2vec,
   title={Poly2Vec: Polymorphic Encoding of Geospatial Objects for Spatial Reasoning with Deep Neural Networks},
   author={Siampou*, M.D. and Li*, J. and Krumm, J. and Shahabi, C. and Lu, H.},
   journal={arXiv preprint arXiv:2408.14806},
   year={2024},
-  abbr={arXiv},
-  selected={true}
+  abbr={Preprint},
+  html={https://www.arxiv.org/pdf/2408.14806},
+  annotation={* denotes equal contribution},
+  abstract = {Encoding geospatial data is crucial for enabling machine learning
+              (ML) models to perform tasks that require spatial reasoning, such
+              as identifying the topological relationships between two different
+              geospatial objects. However, existing encoding methods are limited as they are typically customized to handle only specific types
+              of spatial data, which impedes their applicability across different
+              downstream tasks where multiple data types coexist. To address
+              this, we introduce Poly2Vec, an encoding framework that unifies
+              the modeling of different geospatial objects, including 2D points,
+              polylines, and polygons, irrespective of the downstream task. We
+              leverage the power of the 2D Fourier transform to encode useful
+              spatial properties, such as shape and location, from geospatial objects into fixed-length vectors. These vectors are then inputted into
+              neural network models for spatial reasoning tasks. This unified approach eliminates the need to develop and train separate models for
+              each distinct spatial type. We evaluate Poly2Vec on both synthetic
+              and real datasets of mixed geometry types and verify its consistent
+              performance across several downstream spatial reasoning tasks.},
+  selected={true},
+  annotation={* denotes equal contribution}
 }
 
 @inproceedings{hajisafi2024icde,
-  title={{W}earables for Health (W4H) Toolkit for Acquisition,
-Storage, Analysis and Visualization of Data from Various Wearable Devices},
+  title={{W}earables for Health (W4H) Toolkit for Acquisition, Storage, Analysis and Visualization of Data from Various Wearable Devices},
   author={Hajisafi, A. and Siampou, M.D. and Bi, J. and Nocera, L. and Shahabi, C.},
   booktitle={IEEE International Conference on Data Engineering (ICDE)},
   year={2024},
-  abbr={ICDE},
-  selected = {true}
+  abbr={ICDE - Demo Track},
+  abstract = {
+    The Wearables for Health Toolkit (W4H Toolkit) is an open-source platform that provides a robust, 
+    end-to-end solution for the centralized management and analysis of wearable data. With integrated tools and frameworks, 
+    the toolkit facilitates seamless data acquisition, integration, storage, analysis, and visualization of both stored and streaming 
+    data from various wearable devices. The W4H Toolkit is designed to provide medical researchers and health practitioners with a 
+    unified framework that enables the analysis of health-related data for various clinical applications. We provide an overview of 
+    the system and demonstrate how it can be used by health researchers to import and analyze a wide range of wearable data and perform 
+    data analysis, highlighting the versatility and functionality of the system across diverse healthcare domains and applications.},
+  video = {https://www.youtube.com/watch?v=67a8kuMjSAU},
+  html = {https://ieeexplore.ieee.org/abstract/document/10597982},
 }
 
 @inproceedings{siampou2024embc,
@@ -42,7 +96,6 @@ Storage, Analysis and Visualization of Data from Various Wearable Devices},
     Motifs in distinguishing AR from TD infants and predicting
     future outcomes for the at-risk category.},
   pdf={papers/siampou_embc_2024.pdf},
-  selected = {true}
 }
 
 @inproceedings{hajisafi2023learning,
@@ -64,7 +117,6 @@ Storage, Analysis and Visualization of Data from Various Wearable Devices},
     we observe a significant improvement in our forecasting accuracy
     over state-of-the-art forecasting models in our experiments with
     real-world datasets across the United States.},
-    selected = {true}
 }
 
 @inproceedings{siampou2023supervised,
@@ -91,7 +143,6 @@ Storage, Analysis and Visualization of Data from Various Wearable Devices},
     of our features as well as the limited size of the training set that suffices for learning an accurate classification model. Our experiments
     also verify the superior performance of our approach in comparison
     to existing learning-free ones over five real, large datasets.},
-    selected = {true}
 }
 
 @inproceedings{siampou2022extending,
@@ -111,7 +162,6 @@ Storage, Analysis and Visualization of Data from Various Wearable Devices},
     geospatial information for the whole world. In addition, it has allowed us to uncover certain issues that
     exist with the representation and querying of geospatial information in schema.org and YAGO4 which
     we discuss in detail.},
-    selected = {true}
 }
 
 @article{papamichalopoulos2024three,
@@ -125,5 +175,4 @@ Storage, Analysis and Visualization of Data from Various Wearable Devices},
   abstract={Geospatial data constitutes a considerable part of Semantic Web data, but so far, its sources are inadequately interlinked in the Linked Open Data cloud. Geospatial Interlinking aims to cover this gap by associating geometries with topological relations like those of the Dimensionally Extended 9-Intersection Model. Due to its quadratic time complexity, various algorithms aim to carry out Geospatial Interlinking efficiently. We present JedAI-spatial, a novel, open-source system that organizes these algorithms according to three dimensions: (i) Space Tiling, which determines the approach that reduces the search space, (ii) Budget-awareness, which distinguishes interlinking algorithms into batch and progressive ones, and (iii) Execution mode, which discerns between serial algorithms, running on a single CPU-core, and parallel ones, running on top of Apache Spark. We analytically describe JedAI-spatial’s architecture and capabilities and perform thorough experiments to provide interesting insights about the relative performance of its algorithms.},
   html={https://www.sciencedirect.com/science/article/pii/S1570826824000039},
   abbr={JWS},
-  selected = {true}
 }

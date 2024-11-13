@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 22-05-22 15:59:00-0400
+date: 2024-01-22 15:59:00-0400
 inline: true
+related_posts: false
 ---
 
-I presented our paper <i>"Extending the YAGO4 KG with Geospatial Knowledge"</i> at GeoLD workshop, ESWC.
+W4H [Demo](https://ieeexplore.ieee.org/abstract/document/10597982) was accepted to **ICDE**!
