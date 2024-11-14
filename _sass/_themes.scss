@@ -3,26 +3,32 @@
  ******************************************************************************/
 
 @use "sass:color";
+@use "variables" as vars;
 
 :root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$green-color-lime};
-  --global-hover-color: #{$green-color-lime};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
+  --global-bg-color: #{vars.$white-color};
+  --global-code-bg-color: #{vars.$code-bg-color-light};
+  --global-text-color: #{vars.$black-color};
+  --global-text-color-light: #{vars.$grey-color};
+  --global-theme-color: #{vars.$green-color-lime};
+  --global-hover-color: #{vars.$green-color-lime};
+  --global-hover-text-color: #{vars.$white-color};
+  --global-footer-bg-color: #{vars.$grey-color-dark};
+  --global-footer-text-color: #{vars.$grey-color-light};
+  --global-footer-link-color: #{vars.$white-color};
+  --global-distill-app-color: #{vars.$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(0, 0, 0, 0.1);
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-card-bg-color: #{vars.$white-color};
+  --global-highlight-color: #{vars.$red-color-dark};
+  --global-back-to-top-bg-color: rgba(
+    #{color.channel(vars.$black-color, "red", $space: rgb)},
+    #{color.channel(vars.$black-color, "green", $space: rgb)},
+    #{color.channel(vars.$black-color, "blue", $space: rgb)},
+    0.4
+  );
+  --global-back-to-top-text-color: #{vars.$white-color};
+  --global-newsletter-bg-color: #{vars.$white-color};
+  --global-newsletter-text-color: #{vars.$black-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -61,37 +67,37 @@
   #back-to-top {
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
-    bottom: $back-to-top-bottom;
-    right: $back-to-top-right;
-    height: $back-to-top-height;
-    width: $back-to-top-width;
-    z-index: $back-to-top-z-index;
+    bottom: vars.$back-to-top-bottom;
+    right: vars.$back-to-top-right;
+    height: vars.$back-to-top-height;
+    width: vars.$back-to-top-width;
+    z-index: vars.$back-to-top-z-index;
   }
 }
 
 html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
+  --global-bg-color: #{vars.$grey-color-dark};
+  --global-code-bg-color: #{vars.$code-bg-color-dark};
+  --global-text-color: #{vars.$grey-color-light};
+  --global-text-color-light: #{vars.$grey-color};
+  --global-theme-color: #{vars.$cyan-color};
+  --global-hover-color: #{vars.$cyan-color};
+  --global-hover-text-color: #{vars.$white-color};
+  --global-footer-bg-color: #{vars.$grey-color-light};
+  --global-footer-text-color: #{vars.$grey-color-dark};
+  --global-footer-link-color: #{vars.$black-color};
+  --global-distill-app-color: #{vars.$grey-color-light};
   --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-card-bg-color: #{vars.$grey-900};
   --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
+    #{color.channel(vars.$white-color, "red", $space: rgb)},
+    #{color.channel(vars.$white-color, "green", $space: rgb)},
+    #{color.channel(vars.$white-color, "blue", $space: rgb)},
     0.5
   );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
+  --global-back-to-top-text-color: #{vars.$black-color};
+  --global-newsletter-bg-color: #{vars.$grey-color-light};
+  --global-newsletter-text-color: #{vars.$grey-color-dark};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
