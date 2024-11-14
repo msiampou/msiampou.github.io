@@ -6,18 +6,20 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
-@use "variables";
-@use "themes";
-@use "layout";
-@use "base";
-@use "distill";
-@use "cv";
-@use "tabs";
-@use "typograms";
-@use "font-awesome/fontawesome";
-@use "font-awesome/brands";
-@use "font-awesome/solid";
-@use "font-awesome/regular";
-@use "tabler-icons/tabler-icons";
-@use "tabler-icons/tabler-icons-filled";
-@use "tabler-icons/tabler-icons-outline";
+@import
+  "variables",
+  "themes",
+  "layout",
+  "base",
+  "distill",
+  "cv",
+  "tabs",
+  "typograms",
+  "font-awesome/fontawesome",
+  "font-awesome/brands",
+  "font-awesome/solid",
+  "font-awesome/regular",
+  "tabler-icons/tabler-icons.scss",
+  "tabler-icons/tabler-icons-filled.scss",
+  "tabler-icons/tabler-icons-outline.scss"
+;
