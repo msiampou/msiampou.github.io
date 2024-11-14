@@ -96,7 +96,18 @@ export JEKYLL_ENV=production
 bundle exec jekyll build
 
 # Purge unused css
-purgecss -c purgecss.config.js
+if ! command -v purgecss &> /dev/null
+then
+    echo "Installing purgecss..."
+    npm install -g purgecss
+fi
+
+if [ -f "purgecss.config.js" ]; then
+    echo "Running PurgeCSS..."
+    purgecss -c purgecss.config.js
+else
+    echo "purgecss.config.js not found. Skipping PurgeCSS step."
+fi
 
 # Delete and move files
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
