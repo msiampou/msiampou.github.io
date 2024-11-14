@@ -84,12 +84,7 @@ html[data-theme="dark"] {
   --global-distill-app-color: #{vars.$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{vars.$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel(vars.$white-color, "red", $space: rgb)},
-    #{color.channel(vars.$white-color, "green", $space: rgb)},
-    #{color.channel(vars.$white-color, "blue", $space: rgb)},
-    0.5
-  );
+  --global-back-to-top-bg-color: rgba(0, 0, 0, 0.1);
   --global-back-to-top-text-color: #{vars.$black-color};
   --global-newsletter-bg-color: #{vars.$grey-color-light};
   --global-newsletter-text-color: #{vars.$grey-color-dark};
