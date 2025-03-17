@@ -20,6 +20,8 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'uri', '1.0.3'
+
 end
 group :other_plugins do
     gem 'css_parser'
