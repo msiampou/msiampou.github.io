@@ -20,7 +20,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'uri', '0.10.0'
+    gem 'uri', '0.10.1'
     gem 'rspec'
 end
 group :other_plugins do
