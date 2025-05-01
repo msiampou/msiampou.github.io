@@ -1,6 +1,34 @@
 ---
 ---
 
+@article{siampou2024poly2vec,
+  title={Poly2Vec: Polymorphic Encoding of Geospatial Objects for Spatial Reasoning with Deep Neural Networks},
+  author={Siampou*, M.D. and Li*, J. and Krumm, J. and Shahabi, C. and Lu, H.},
+  journal={International Conference on Machine Learning (ICML)},
+  year={2025},
+  abbr={ICML},
+  html={https://www.arxiv.org/pdf/2408.14806},
+  annotation={* denotes equal contribution},
+  abstract = {Encoding geospatial data is crucial for enabling machine learning
+              (ML) models to perform tasks that require spatial reasoning, such
+              as identifying the topological relationships between two different
+              geospatial objects. However, existing encoding methods are limited as they are typically customized to handle only specific types
+              of spatial data, which impedes their applicability across different
+              downstream tasks where multiple data types coexist. To address
+              this, we introduce Poly2Vec, an encoding framework that unifies
+              the modeling of different geospatial objects, including 2D points,
+              polylines, and polygons, irrespective of the downstream task. We
+              leverage the power of the 2D Fourier transform to encode useful
+              spatial properties, such as shape and location, from geospatial objects into fixed-length vectors. These vectors are then inputted into
+              neural network models for spatial reasoning tasks. This unified approach eliminates the need to develop and train separate models for
+              each distinct spatial type. We evaluate Poly2Vec on both synthetic
+              and real datasets of mixed geometry types and verify its consistent
+              performance across several downstream spatial reasoning tasks.},
+  selected={true},
+  annotation={* denotes equal contribution},
+  pdf={Poly2Vec_ICML.pdf},
+}
+
 @article{hajisafi2024wavegnn,
   title={WaveGNN: Modeling Irregular Multivariate Time Series for Accurate Predictions},
   author={Hajisafi*, A. and Siampou*, M.D. and Azarijoo*, B. and Shahabi, C.},
@@ -38,32 +66,6 @@
               lower-maintenance alternatives to conventional systems.},
 }
 
-@article{siampou2024poly2vec,
-  title={Poly2Vec: Polymorphic Encoding of Geospatial Objects for Spatial Reasoning with Deep Neural Networks},
-  author={Siampou*, M.D. and Li*, J. and Krumm, J. and Shahabi, C. and Lu, H.},
-  journal={arXiv preprint arXiv:2408.14806},
-  year={2024},
-  abbr={Preprint},
-  html={https://www.arxiv.org/pdf/2408.14806},
-  annotation={* denotes equal contribution},
-  abstract = {Encoding geospatial data is crucial for enabling machine learning
-              (ML) models to perform tasks that require spatial reasoning, such
-              as identifying the topological relationships between two different
-              geospatial objects. However, existing encoding methods are limited as they are typically customized to handle only specific types
-              of spatial data, which impedes their applicability across different
-              downstream tasks where multiple data types coexist. To address
-              this, we introduce Poly2Vec, an encoding framework that unifies
-              the modeling of different geospatial objects, including 2D points,
-              polylines, and polygons, irrespective of the downstream task. We
-              leverage the power of the 2D Fourier transform to encode useful
-              spatial properties, such as shape and location, from geospatial objects into fixed-length vectors. These vectors are then inputted into
-              neural network models for spatial reasoning tasks. This unified approach eliminates the need to develop and train separate models for
-              each distinct spatial type. We evaluate Poly2Vec on both synthetic
-              and real datasets of mixed geometry types and verify its consistent
-              performance across several downstream spatial reasoning tasks.},
-  selected={true},
-  annotation={* denotes equal contribution}
-}
 
 @inproceedings{hajisafi2024icde,
   title={{W}earables for Health (W4H) Toolkit for Acquisition, Storage, Analysis and Visualization of Data from Various Wearable Devices},
