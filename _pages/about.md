@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a 3rd-year PhD student in Computer Science at [University of Southern California](https://www.usc.edu/) (USC✌️), advised by Prof. [Cyrus Shahabi](https://infolab.usc.edu/Shahabi/index.html).
+I am a 4th-year PhD student in Computer Science at [University of Southern California](https://www.usc.edu/) (USC✌️), advised by Prof. [Cyrus Shahabi](https://infolab.usc.edu/Shahabi/index.html).
 
 My research focuses on **geospatial foundation models**, with an emphasis on modeling **geo-vector data** (e.g., points, polylines, polygons) and **mobility trajectories** to create general-purpose spatial representations. I also, collaborate closely with SpaceTime Team @ Google Research on this effort, contributing to their broader initiative on [Geospatial Reasoning](https://research.google/blog/geospatial-reasoning-unlocking-insights-with-generative-ai-and-multiple-foundation-models/).
 

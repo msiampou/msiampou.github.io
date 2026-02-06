@@ -1,6 +1,34 @@
 ---
 ---
 
+@article{siampou2026mobility,
+  title={Mobility-Embedded POIs: Learning What A Place Is and How It Is Used from Human Movement},
+  author={Siampou, M.D. and Choudhury, S. and Hsu, S.-L. and Arora, N. and Shahabi, C.},
+  journal={arXiv preprint arXiv:2601.21149},
+  year={2026},
+  abbr={preprint},
+  html={https://www.arxiv.org/abs/2601.21149},
+  abstract = {Recent progress in geospatial foundation models highlights the importance of learning 
+  general-purpose representations for real-world locations, particularly points-of-interest 
+  (POIs) where human activity concentrates. Existing approaches, however, 
+  focus primarily on place identity derived from static textual metadata, 
+  or learn representations tied to trajectory context, which capture movement regularities rather 
+  than how places are actually used (i.e., POI's function). We argue that POI function is a missing 
+  but essential signal for general POI representations. We introduce Mobility-Embedded POIs (ME-POIs), 
+  a framework that augments POI embeddings derived, from language models with large-scale human mobility 
+  data to learn POI-centric, context-independent representations grounded in real-world usage. ME-POIs 
+  encodes individual visits as temporally contextualized embeddings and aligns them with learnable POI 
+  representations via contrastive learning to capture usage patterns across users and time. To address 
+  long-tail sparsity, we propose a novel mechanism that propagates temporal visit patterns from nearby, 
+  frequently visited POIs across multiple spatial scales. We evaluate ME-POIs on five newly proposed map 
+  enrichment tasks, testing its ability to capture both the identity and function of POIs. Across all tasks, 
+  augmenting text-based embeddings with ME-POIs consistently outperforms both text-only and mobility-only 
+  baselines. Notably, ME-POIs trained on mobility data alone can surpass text-only models on certain tasks, 
+  highlighting that POI function is a critical component of accurate and generalizable POI representations.},
+  selected={true},
+  pdf={ME-POIs.pdf},
+}
+
 @inproceedings{siampou2025vision,
   title={Toward Foundation Models for Mobility Enriched Geospatially Embedded Objects},
   author={Siampou, M.D. and Hsu, S-L. and Choudhury, S. and Arora, N. and Shahabi, C.},
